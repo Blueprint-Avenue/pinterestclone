@@ -55,7 +55,7 @@ const styles = StyleSheet.create({
 		lineHeight: 22,
 		fontWeight: "600",
 		margin: 5,
-		color: "white", // "#181818"
+		color: "#181818", // "#181818"
 	},
 	image: {
 		width: "100%",

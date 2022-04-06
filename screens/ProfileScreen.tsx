@@ -9,11 +9,11 @@ export default function ProfileScreen() {
 		<ScrollView style={styles.container}>
 			<View style={styles.header}>
 				<View style={styles.icons}>
-					<Feather name="share" size={24} color="white" style={styles.icon} />
+					<Feather name="share" size={24} color="#181818" style={styles.icon} />
 					<Entypo
 						name="dots-three-horizontal"
 						size={24}
-						color="white"
+						color="#181818"
 						style={styles.icon}
 					/>
 				</View>
@@ -41,7 +41,7 @@ const styles = StyleSheet.create({
 		margin: 10,
 	},
 	subTitle: {
-		color: "#FAFAFA",
+		color: "#181818",
 		fontWeight: "600",
 		margin: 20,
 	},
